@@ -1,0 +1,22 @@
+:root {
+    --dark: grey;
+    --darker: rgb(65, 65, 65);
+    --darkest: black;
+    --light: lightgrey;
+    --skyblue: skyblue;
+    --navy: navy;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: var(--darker);
+    color: white;
+}
